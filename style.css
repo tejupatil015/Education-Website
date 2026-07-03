@@ -173,3 +173,71 @@ header {
 }
 
 /*-----------------------End of header------------------*/
+
+.catagories__container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    /*gap: 4rem;*/
+}
+
+.catagories__left {
+    margin-right: 4rem;
+}
+
+.catagories__left p {
+    margin: 1rem 0 3rem;
+}
+
+.catagories__right {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+}
+
+.catagory {
+    background: var(--color-bg2);
+    padding: 2rem;
+    border-radius: 2rem;
+    transition: var(--transition);
+}
+
+.catagory:nth-child(2) .catagory__icon {
+    background: var(--color-danger);
+}
+
+.catagory:nth-child(3) .catagory__icon {
+    background: var(--color-warning);
+}
+
+.catagory:nth-child(4) .catagory__icon {
+    background: var(--color-succes);
+}
+
+.catagory:nth-child(5) .catagory__icon {
+    background: var(--color-warning);
+}
+
+.catagory:nth-child(6) .catagory__icon {
+    background: var(--color-bg);
+}
+
+.catagory:hover {
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.catagory__icon {
+    background: var(--color-bg);
+    padding: 0.7rem;
+    border-radius: 0.9rem;
+}
+
+.catagory h5 {
+    margin: 2rem 0 1rem;
+}
+
+.catagory p {
+    font-size: 0.85rem;
+}
+
+/*-----------------------End of Catagory------------------*/
