@@ -241,3 +241,174 @@ header {
 }
 
 /*-----------------------End of Catagory------------------*/
+
+.courses {
+    margin-top: 10rem;
+    background: var(--color-bg2);
+}
+
+.courses__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.course {
+    background: var(--color-bg);
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.course__info {
+    padding: 2rem;
+}
+
+.course__info p {
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;
+}
+
+.course:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+}
+
+/*-----------------------End of course------------------*/
+
+.faqs {
+    background: var(--color-bg);
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+}
+
+.faqs__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.faq {
+    align-items: center;
+    display: flex;
+    padding: 2rem;
+    gap: 1.4rem;
+    height: fit-content;
+    background: var(--color-primary);
+    cursor: pointer;
+}
+
+.faq h4 {
+    font-size: 1rem;
+    line-height: 2.2;
+}
+
+.faq__icon {
+    align-self: flex-start;
+    font-size: 1.2rem;
+}
+
+.faq p {
+    margin-top: 0.8rem;
+    display: none;
+}
+
+.faq.open p {
+    display: block;
+}
+
+/*-----------------------End of question------------------*/
+
+.testimonials__container {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 5rem;
+    background: var(--color-bg);
+    margin-top: 2rem;
+}
+
+.testimonial {
+    padding-top: rem;
+}
+
+
+.avatar {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 3rem;
+    border: 1rem solid var(--color-bg2);
+}
+
+.testimonial__info {
+    text-align: center;
+}
+
+.testimonial__body {
+    background: var(--color-primary);
+    margin: 2rem;
+    margin-top: 3rem;
+    position: relative;
+    padding: 2rem;
+}
+
+.testimonial__body::before {
+    content: "";
+    display: block;
+    background: linear-gradient(135deg,
+            transparent,
+            var(--color-primary),
+            var(--color-primary),
+            var(--color-primary));
+
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 50%;
+    top: -1.5rem;
+    transform: rotate(45deg);
+}
+
+
+
+
+
+footer {
+    background: var(--color-bg2);
+    padding-top: 5rem;
+    font-size: 0.9rem;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5rem;
+}
+
+.footer__container>div h4 {
+    margin-bottom: 1.2rem;
+}
+
+.footer__1 p {
+    margin: 0 0 2rem;
+}
+
+footer ul li {
+    margin-bottom: 0.7rem;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer__social {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+
+
+
+/* ================= MOBILE (max 600px) ================= */
