@@ -118,6 +118,9 @@ Frontend Web Development Project
 
 ---
 
+ About the project: gh repo clone tejupatil015/Education-Website
+
+ view of project: 
 ⭐ **If you like EGATOR, don't forget to give this repository a star!**
 
 💡 *Learn. Grow. Achieve. — EGATOR*
