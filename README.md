@@ -1,16 +1,17 @@
-# 🎓 EGATOR – Online Learning Platform
+EGATOR – Online Learning Platform
 
 > A modern, responsive and interactive online learning platform designed to provide students with an engaging and seamless learning experience.
 
-## 🌟 About The Project
+
+ About The Project
 
 **EGATOR** is a modern educational website created to make online learning simple, accessible and engaging.
-
 The platform allows users to explore courses, learn about instructors, check course fees, read student testimonials and get in touch through the contact section.
 
 The website focuses on a **clean, attractive and user-friendly UI** with responsive layouts, smooth animations and interactive components.
 
-## ✨ Key Features
+
+ Key Features
 
 - 🏠 Modern & Attractive Home Page
 - 📚 Explore Multiple Courses
@@ -26,8 +27,8 @@ The website focuses on a **clean, attractive and user-friendly UI** with respons
 - 🧭 Easy Navigation
 - ⚡ Interactive User Experience
 
-## ⭐ Testimonials
 
+## ⭐ Testimonials
 The testimonial section is designed using **Swiper.js** to create a smooth and interactive slider experience.
 
 ### Swiper Features Used:
@@ -107,9 +108,7 @@ The project can be further enhanced with:
 - 🔎 Course Search & Filtering
 - 📧 Email Notification System
 
-## 📸 Preview
 
-> Add your website screenshots here to showcase the design and user interface.
 
 ## 👩‍💻 Author
 
